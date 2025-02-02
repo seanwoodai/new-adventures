@@ -1,0 +1,117 @@
+{
+  "frameworkVersion": "1.0.0",
+  "lastUpdated": "2025-02-02",
+  "components": {
+    "AIWorkplaceFramework": {
+      "id": "ai-workplace-framework",
+      "title": "AI Workplace Learning Framework",
+      "sections": [
+        {
+          "id": "mindful-engagement",
+          "title": "Mindful AI Engagement",
+          "principles": [
+            "Avoid passive consumption of AI outputs",
+            "Practice questioning and critiquing AI responses",
+            "Focus on understanding the reasoning process",
+            "Maintain active learning strategies"
+          ],
+          "challenges": [
+            "Overreliance on AI assistance",
+            "Reduced cognitive engagement",
+            "False sense of competency",
+            "Weakened problem-solving skills"
+          ]
+        },
+        {
+          "id": "structured-learning",
+          "title": "Structured Learning Design",
+          "principles": [
+            "Define clear learning objectives before using AI",
+            "Create scaffolded learning experiences",
+            "Incorporate reflection and self-assessment",
+            "Balance AI assistance with independent work"
+          ],
+          "challenges": [
+            "Lack of systematic approach",
+            "Poor integration with existing workflows",
+            "Missing skill development focus",
+            "Inadequate progress tracking"
+          ]
+        },
+        {
+          "id": "collective-intelligence",
+          "title": "Collective Intelligence",
+          "principles": [
+            "Combine human and AI strengths",
+            "Foster collaborative learning environments",
+            "Share insights and best practices",
+            "Build on collective experiences"
+          ],
+          "challenges": [
+            "Siloed AI usage",
+            "Limited knowledge sharing",
+            "Inconsistent practices",
+            "Missed learning opportunities"
+          ]
+        }
+      ]
+    },
+    "AIImplementationGuide": {
+      "id": "ai-implementation-guide",
+      "title": "AI Implementation Guide",
+      "implementations": [
+        {
+          "area": "Mindful AI Engagement",
+          "examples": [
+            {
+              "scenario": "Writing a Business Proposal",
+              "goodPractice": "First draft key points yourself, then use AI to enhance and provide feedback",
+              "badPractice": "Immediately asking AI to generate the entire proposal",
+              "benefit": "Maintains your critical thinking while leveraging AI's capabilities"
+            },
+            {
+              "scenario": "Problem Solving",
+              "goodPractice": "Ask AI to critique your solution approach and suggest alternatives",
+              "badPractice": "Directly asking for the solution without attempting the problem",
+              "benefit": "Develops your problem-solving skills while using AI as a coach"
+            }
+          ]
+        },
+        {
+          "area": "Structured Learning Design",
+          "examples": [
+            {
+              "scenario": "Learning New Technical Skills",
+              "goodPractice": "Create a progressive learning plan with checkpoints, using AI for explanations",
+              "badPractice": "Random AI queries without a structured learning path",
+              "benefit": "Ensures systematic skill development with AI support"
+            },
+            {
+              "scenario": "Project Management",
+              "goodPractice": "Use AI to analyze your project approach and suggest improvements",
+              "badPractice": "Relying on AI to manage the entire project without human oversight",
+              "benefit": "Builds project management skills while leveraging AI insights"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "@/components/ui": "latest",
+    "lucide-react": "^0.263.1"
+  },
+  "recommendedSetup": {
+    "development": [
+      "Node.js v16+",
+      "npm or yarn",
+      "Git for version control"
+    ],
+    "deployment": [
+      "Static hosting service",
+      "CI/CD pipeline (optional)",
+      "Environment variables management"
+    ]
+  }
+}
